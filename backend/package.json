@@ -1,0 +1,32 @@
+{
+  "name": "jouleverse-faucet-backend",
+  "version": "1.0.0",
+  "description": "Jouleverse Faucet Backend API",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node --loader ts-node/esm src/index.ts",
+    "dev": "node --watch --loader ts-node/esm src/index.ts"
+  },
+  "keywords": [
+    "faucet",
+    "jouleverse",
+    "blockchain"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^5.5.1",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "typescript": "^5.9.3",
+    "viem": "^2.7.13"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.19.37",
+    "ts-node": "^10.9.2"
+  }
+}

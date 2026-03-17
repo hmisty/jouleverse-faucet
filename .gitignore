@@ -1,0 +1,6 @@
+node_modules/
+.env
+faucet.csv
+*.log
+dist/
+.DS_Store
