@@ -35,9 +35,9 @@
 
 ## 📦 快速开始
 
-### ⚡ 一键部署（推荐）
+### ⚡ 在线体验
 
-如果已部署到 `faucet.jouleverse.com`，直接访问即可：https://faucet.jouleverse.com
+本服务已部署到生产环境，可直接访问体验：**https://faucet.f7t.cn**
 
 ### 👨‍💻 本地开发
 
@@ -208,17 +208,17 @@ a1b2c3d4...,user@example.com,0x...,0x...,2026-03-16T12:00:00.000Z
 
 ### 🌐 生产环境部署
 
-本项目已部署到生产环境：**https://faucet.jouleverse.com**
+本项目已部署到生产环境：**https://faucet.f7t.cn**
 
 #### Nginx 反向代理配置（推荐）
 
 使用 Nginx 反向代理可以提供更好的性能和安全性。详见 `NGINX_DEPLOYMENT.md`。
 
 **快速部署步骤：**
-1. 配置域名 `faucet.jouleverse.com`
+1. 配置域名（如 `faucet.f7t.cn`）
 2. 配置 DNS A 记录指向服务器 IP
 3. 使用提供的 `nginx.conf` 配置 Nginx
-4. 配置 HTTPS（Let's Encrypt）
+4. 配置 HTTPS（推荐 acme.sh / Let's Encrypt）
 5. 重启 Nginx 服务
 
 ```bash
@@ -256,7 +256,7 @@ pm2 startup
 ```nginx
 server {
   listen 80;
-  server_name faucet.jouleverse.com;
+  server_name faucet.f7t.cn;
 
   # 前端静态文件
   location / {
@@ -347,4 +347,4 @@ ISC License
 
 ---
 
-_最后更新：2026-03-18_
+_最后更新：2026-07-12_
