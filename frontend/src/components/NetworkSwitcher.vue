@@ -16,7 +16,7 @@ const JOULEVERSE_CONFIG = {
     symbol: 'J',
     decimals: 18
   },
-  rpcUrls: ['https://rpc.jnsdao.com:8503'],
+  rpcUrls: ['https://rpc.jnsdao.com'],
   blockExplorerUrls: ['https://jscan.jnsdao.com']
 }
 
@@ -58,7 +58,7 @@ async function switchToJouleverse() {
     <p class="text-xs text-gray-500">
       或手动添加：<br>
       Chain ID: 3666<br>
-      RPC URL: https://rpc.jnsdao.com:8503<br>
+      RPC URL: https://rpc.jnsdao.com<br>
       Currency Symbol: J
     </p>
   </div>

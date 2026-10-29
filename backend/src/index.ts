@@ -45,7 +45,7 @@ app.listen(PORT, () => {
 ║        Jouleverse Faucet API Server                       ║
 ║                                                            ║
 ║        🚀 Server running on port ${PORT}                        ║
-║        🔗 RPC: https://rpc.jnsdao.com:8503               ║
+║        🔗 RPC: https://rpc.jnsdao.com               ║
 ║        💰 Faucet Amount: ${process.env.FAUCET_AMOUNT || '0.05'} J                    ║
 ║                                                            ║
 ╚════════════════════════════════════════════════════════════╝

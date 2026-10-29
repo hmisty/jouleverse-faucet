@@ -65,7 +65,7 @@ npm install
 **方式一：使用 .env 文件** (`backend/.env`)：
 ```bash
 FAUCET_PRIVATE_KEY=0x...                    # 水龙头私钥
-JOULEVERSE_RPC_URL=https://rpc.jnsdao.com:8503
+JOULEVERSE_RPC_URL=https://rpc.jnsdao.com
 JOULEVERSE_CHAIN_ID=3666
 JOULEVERSE_EXPLORER=https://jscan.jnsdao.com
 FAUCET_AMOUNT=0.05                          # 每次领取数量
@@ -104,7 +104,7 @@ npm run dev
 | 配置项 | 值 |
 |--------|-----|
 | Chain ID | `3666` (0xe52) |
-| RPC URL | `https://rpc.jnsdao.com:8503` |
+| RPC URL | `https://rpc.jnsdao.com` |
 | Native Currency | `J` (18 decimals) |
 | 区块浏览器 | `https://jscan.jnsdao.com` |
 | 官方信息 | `https://jnsdao.com` |

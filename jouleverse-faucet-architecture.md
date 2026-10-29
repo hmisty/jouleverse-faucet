@@ -19,7 +19,7 @@
 |--------|-----|
 | **链名称** | Jouleverse Mainnet |
 | **Chain ID** | `3666` (0xe52) |
-| **RPC URL** | `https://rpc.jnsdao.com:8503` |
+| **RPC URL** | `https://rpc.jnsdao.com` |
 | **Native Currency** | `J` (18 decimals) |
 | **区块浏览器** | `https://jscan.jnsdao.com` |
 | **官方信息** | `https://jnsdao.com` |
@@ -34,7 +34,7 @@
     symbol: 'J',
     decimals: 18
   },
-  rpcUrls: ['https://rpc.jnsdao.com:8503'],
+  rpcUrls: ['https://rpc.jnsdao.com'],
   blockExplorerUrls: ['https://jscan.jnsdao.com']
 }
 ```
@@ -346,7 +346,7 @@ function refreshCaptcha() {
 ```bash
 # .env 文件
 FAUCET_PRIVATE_KEY=0x...
-JOULEVERSE_RPC_URL=https://rpc.jnsdao.com:8503
+JOULEVERSE_RPC_URL=https://rpc.jnsdao.com
 FAUCET_AMOUNT=0.05
 
 # .gitignore
@@ -487,7 +487,7 @@ module.exports = {
 ```bash
 # .env
 FAUCET_PRIVATE_KEY=0x...                    # 水龙头私钥
-JOULEVERSE_RPC_URL=https://rpc.jnsdao.com:8503
+JOULEVERSE_RPC_URL=https://rpc.jnsdao.com
 JOULEVERSE_CHAIN_ID=3666
 JOULEVERSE_EXPLORER=https://jscan.jnsdao.com
 FAUCET_AMOUNT=0.05                          # 每次领取数量

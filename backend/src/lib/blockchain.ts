@@ -9,7 +9,7 @@ const JOULEVERSE_CHAIN = {
   nativeCurrency: { name: 'J', symbol: 'J', decimals: 18 },
   rpcUrls: {
     default: {
-      http: [process.env.JOULEVERSE_RPC_URL || 'https://rpc.jnsdao.com:8503']
+      http: [process.env.JOULEVERSE_RPC_URL || 'https://rpc.jnsdao.com']
     }
   },
   blockExplorers: {

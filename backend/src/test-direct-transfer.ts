@@ -6,7 +6,7 @@ const JOULEVERSE_CHAIN = {
   nativeCurrency: { name: 'J', symbol: 'J', decimals: 18 },
   rpcUrls: {
     default: {
-      http: ['https://rpc.jnsdao.com:8503']
+      http: ['https://rpc.jnsdao.com']
     }
   }
 }
